@@ -1,5 +1,5 @@
 var htee;
-function dateTurd() {
+function birthCalc() {
     var current_date = new Date();
     var birth_date = new Date("September 16, 2016 00:01");
     var diff = birth_date.getTime() - current_date.getTime();
@@ -20,4 +20,5 @@ function secondsToString(seconds) {
     return numyears + " years " + numdays + " days " + numhours + " hours " + numminutes + " minutes " + 
         numseconds + " seconds";
 }
-dateTurd();
+
+birthCalc();
