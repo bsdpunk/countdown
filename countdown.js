@@ -1,7 +1,7 @@
 var htee;
 function birthCalc() {
     var current_date = new Date();
-    var birth_date = new Date("September 16, 2017 00:01");
+    var birth_date = new Date("September 16, 2014 00:01");
     var diff = birth_date.getTime() - current_date.getTime();
     var seconds = diff / 1000;
     var thenthis = secondsToString(seconds);
